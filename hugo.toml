@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://123duran.github.io/diarioDeLeitura/'
 languageCode = 'pt-BR'
 title = 'Meu diário de leitura'
 theme = 'ananke'

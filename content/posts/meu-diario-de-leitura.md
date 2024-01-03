@@ -1,7 +1,7 @@
 ---
 title: "Esse é o meu diário de leitura"
-date: 2024-01-02T09:03:20-08:00
-draft: true
+date: 2024-01-02T09:22:53-00:00
+draft: false
 ---
 ## Esse é o meu diário de leitura
 

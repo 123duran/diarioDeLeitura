@@ -1,4 +1,4 @@
 baseURL = 'https://example.org/'
-languageCode = 'pt-br'
+languageCode = 'pt-BR'
 title = 'Meu diário de leitura'
 theme = 'ananke'

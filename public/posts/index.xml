@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Meu diário de leitura</title>
+    <link>https://123duran.github.io/diarioDeLeitura/posts/</link>
+    <description>Recent content in Posts on Meu diário de leitura</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Tue, 02 Jan 2024 09:22:53 +0000</lastBuildDate>
+    <atom:link href="https://123duran.github.io/diarioDeLeitura/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Esse é o meu diário de leitura</title>
+      <link>https://123duran.github.io/diarioDeLeitura/posts/meu-diario-de-leitura/</link>
+      <pubDate>Tue, 02 Jan 2024 09:22:53 +0000</pubDate>
+      <guid>https://123duran.github.io/diarioDeLeitura/posts/meu-diario-de-leitura/</guid>
+      <description>Esse é o meu diário de leitura Bem, basicamente eu leio pra caralho. Não é figura de linguagem, eu realemente me esforço pra ler bastante e eu gostaria de ter um lugar para extravasar as impressões após eu ler os livros pra que meu cérebro de peixe consiga lembrar do que eu li durante o ano.&#xA;Para vocês terem uma idéia, o número de livros que eu li (segundo o skoob) e um breve resumo de como foi meu ano desde 2018:</description>
+    </item>
+  </channel>
+</rss>

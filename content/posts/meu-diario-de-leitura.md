@@ -7,7 +7,7 @@ draft: false
 
 
 Bem, basicamente eu leio pra caralho.
-Não é figura de linguagem, eu realemente me esforço pra ler bastante e eu gostaria de ter um lugar para extravasar as impressões após eu ler os livros pra que meu cérebro de peixe consiga lembrar do que eu li durante o ano.
+Não é figura de linguagem, eu realmente me esforço pra ler bastante e eu gostaria de ter um lugar para extravasar as impressões após eu ler os livros pra que meu cérebro de peixe consiga lembrar do que eu li durante o ano.
 
 Para vocês terem uma idéia, o número de livros que eu li (segundo o skoob) e um breve resumo de como foi meu ano desde 2018:
 - **2018 - 14 livros**, a empolgação com o Kindle começa e eu li meu primeiro livro totalmente em inglês

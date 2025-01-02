@@ -1,5 +1,5 @@
 +++
-title = 'Diario De Um Banana Jeff Kinney'
+title = 'Diário De Um Banana - Jeff Kinney'
 date = 2025-01-02T15:10:05-03:00
 draft = false
 +++

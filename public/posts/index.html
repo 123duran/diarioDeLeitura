@@ -1,154 +1,339 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>Meu diário de leitura</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="">
-    <meta name="generator" content="Hugo 0.121.1">
-    
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
+<html lang="en" dir="auto" data-theme="auto">
 
-    
-<link rel="stylesheet" href="/diarioDeLeitura/ananke/css/main.min.css" >
+<head><script src="/diarioDeLeitura/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=diarioDeLeitura/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Posts | Meu diário de leitura</title>
+<meta name="keywords" content="">
+<meta name="description" content="Posts - Meu diário de leitura">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/diarioDeLeitura/posts/">
+<link crossorigin="anonymous" href="/diarioDeLeitura/assets/css/stylesheet.fd5566c526ae48aadabd950798a2dc3568536401560eae5caac3765a42a9e7b5.css" integrity="sha256-/VVmxSauSKravZUHmKLcNWhTZAFWDq5cqsN2WkKp57U=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/diarioDeLeitura/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/diarioDeLeitura/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/diarioDeLeitura/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/diarioDeLeitura/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/diarioDeLeitura/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/diarioDeLeitura/posts/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/diarioDeLeitura/posts/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
 
+            .list {
+                background: var(--theme);
+            }
 
-    
+            .toc {
+                background: var(--entry);
+            }
+        }
 
-    
-      
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
 
-    
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
 
-    
-    
-      <link href="/diarioDeLeitura/posts/index.xml" rel="alternate" type="application/rss+xml" title="Meu diário de leitura" />
-      <link href="/diarioDeLeitura/posts/index.xml" rel="feed" type="application/rss+xml" title="Meu diário de leitura" />
-      
-    
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/diarioDeLeitura/" accesskey="h" title="Meu diário de leitura (Alt + H)">Meu diário de leitura</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/diarioDeLeitura/posts/" title="Resenhas">
+                    <span class="active">Resenhas</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Posts
+  </h1>
+</header>
 
-    
-      <link rel="canonical" href="https://123duran.github.io/diarioDeLeitura/posts/">
-    
-
-    <meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://123duran.github.io/diarioDeLeitura/posts/" />
-
-<meta itemprop="name" content="Posts">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content=""/>
-
-	
-  </head>
-
-  <body class="ma0 avenir bg-near-white">
-
-    
-
-  <header>
-    <div class="pb3-m pb6-l bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="/diarioDeLeitura/" class="f3 fw2 hover-white no-underline white-90 dib">
-      
-        Meu diário de leitura
-      
-    </a>
-    <div class="flex-l items-center">
-      
-
-      
-      
-<div class="ananke-socials">
-  
-</div>
-
-    </div>
-  </div>
-</nav>
-
-      <div class="tc-l pv3 ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
-          Posts
-        </h1>
-        
-      </div>
-    </div>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Diário De Um Banana - Jeff Kinney
+    </h2>
   </header>
+  <div class="entry-content">
+    <p>Diário de um Banana - Jeff Kinney Autor: Jeff Kinney
+Número de páginas: 224
+Início da leitura: 15/09/2024
+Término da leitura: 15/09/2024
+Personagens Diário de um banana é quase uma HQ, mas eu considero um livro ilustrado, já que boa parte da “banda desenhada” são ilustrações das situações descritas pelo personagem principal. E quem é o personagem principal? O menino Greg Heffley, um estudante extremamente comum e medíocre. E é isso que faz diário de um banana uma série de livros tão especial. Eu fui uma criança preguiçosa, tal qual o Greg (mas não tanto quanto, ele se supera), eu fui bobo igual ele, eu vi injustiças dos adultos da família e ninguém me ouviu igualzinho ele relata, em suma EU ME VEJO NO GREG. E o “banana” do título é justamente isso, Greg não é um escolhido, não é um predestinado com Percy Jackson e Harry Potter, é um garto medíocre e NORMALZINHO, sem graça e bobo, um típico pré adolescente criança demais pra ser adolescente e adolescente demais pra ser criança. Ele tem dois irmãos: um mais velho, Rodrick que é um tremendo escrotinho, e Manny, o caçula x-9, e mora com seu papai Frank e sua mãe. Eu li esse livro em um dia durante minhas férias em Setembro, uma cópia que eu comprei no Sebo no centro de Campinas, já amareladinha e cheia de marcas de uso, e gosto de imaginar que esse livro fez outras pessoas felizes antes de vir pra minha casa. Cheguei em casa a tarde e devorei o livro, em coisa de umas 4 horas eu tinha lido tudo. Aqui vale um parênteses: Eu sou completamente adpeto de leitura em formato digital, EXCETO por quadrinhos coloridos, em geral eu leio tudo em digital, desde livros até mangás no kindle, porém diário de um banana me faz querer ter todas as cópias físicas, e esse é um objetivo que pretendo cumprir ao longo dos próximos anos, são 19 livros então eu vou precisar de uma prateleira só pra essa série. Outra observação importante: Existe um box à venda na Amazon dos dez primeiros volumes, é metade/um terço (depende da promoção) das versões separadas, porém as individuais são capa dura e esse box é brochura, particularmente eu não recomendo à quem gostaria de colecionar, pois o tratamento em capa dura é muito bonito e bem feito. Voltando para a história, Diário de um banana me lembrou muito de outra obra que eu li e resenhei aqui no blog, Meu amigo Dahmer, obviamente guardadas as devidas proporções. Uma coisa que me chamou atenção e que une as duas obras é que tanto Greg quanto o Dahmer estão cercados de adultos que não se esforçam nem um pouco para OUVIR as mazelas dos filhos. Mas calma, diário de um banana é livre pra todas as idades e nem de longe pesado como MAD, é uma obra completamente diferente em sua proposta, porém converge nesse ponto: Adultos geralmente não tem tempo de prestar atenção no que crianças querem expressar, e isso pode gerar consequências catastróficas (e não to passando pano pro assassino, mas o próprio autor de MAD comenta no livro esse aspecto). Outro personagem recorrente na vida do Greg é seu amigo “bobo” o Rowley! Rowley é um menino inocente, meio tapadinho, mas sagaz e puro de coração, bem diferente do podrerinho que o Greg se apresenta. Rowley é uma criança amável e vive se ferrando por causa do protagonista, que não fala diretamente mas em diversos momentos demonstra ter inveja do amigo, justamente por causa de suas qualidades.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-01-02 15:10:05 -0300 -03'>January 2, 2025</span>&nbsp;·&nbsp;<span>5 min</span></footer>
+  <a class="entry-link" aria-label="post link to Diário De Um Banana - Jeff Kinney" href="http://localhost:1313/diarioDeLeitura/posts/diario-de-um-banana-jeff-kinney/"></a>
+</article>
 
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Meu Amigo Dahmer -  Derf Backderf
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Meu Amigo Dahmer - Derf Backderf Autor: Derf Backderf
+Número de páginas: 288
+Início da leitura: 17/11/2024
+Término da leitura: 17/11/2024
+Olha só se não voltei a escrever depois de vários meses!
+O livro de hoje é uma HQ, escrita por John Backderf, também conhecido como Derf e Derf Backderf, e retrata sua adolescência como colega de sala de ninguém menos que o infame assassino serial Jeffrey Dahmer.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-11-17 15:49:55 -0300 -03'>November 17, 2024</span>&nbsp;·&nbsp;<span>2 min</span></footer>
+  <a class="entry-link" aria-label="post link to Meu Amigo Dahmer -  Derf Backderf" href="http://localhost:1313/diarioDeLeitura/posts/meu-amigo-dahmer/"></a>
+</article>
 
-    <main class="pb7" role="main">
-      
-  <article class="pa3 pa4-ns nested-copy-line-height">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
-    <section class="flex-ns flex-wrap justify-around mt5">
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Posts</span>
-    <h1 class="f3 near-black">
-      <a href="/diarioDeLeitura/posts/dexter-4-dexter-design-de-um-assassino/" class="link black dim">
-        Dexter 4 - Dexter Design De Um Assassino Jeff Lindsay
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Dexter 4 - Dexter Design De Um Assassino - Jeff Lindsay Autor: Jeff Lindsay
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Prisioneiras - Drauzio Varella
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Prisioneiras - Drauzio Varella Autor: Drauzio Varella
+Número de páginas: 296
+Início da leitura: 24/01/2024
+Término da leitura: 28/01/2024
+Prisioneiras é o terceiro livro da trilogia do Dr. Drauzio Varella sobre suas experiências ao longo de décadas de trabalho voluntário no sistema prisional brasileiro.
+O primeiro livro é “Estação Carandiru”, que foi adaptado para o cinema pelo talentosíssimo Héctor Babenco em 2003, e como o nome já diz fala a respeito da casa de detenção, também conhecido como o inferno na terra. Tanto o livro quanto o filme valem muito serem prestigiados, sendo inclusive o filme uma adaptação surpreendemente fiel das histórias narradas, com passagens inteiras sendo transpostas para a tela do cinema com maestria e cuidado, além das atuações marcantes de vários atores brasileiros sensacionais. O filme da um grande destaque ao massacre do Carandiru realizado pela polícia militar.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-02-13 12:29:42 -0300 -03'>February 13, 2024</span>&nbsp;·&nbsp;<span>5 min</span></footer>
+  <a class="entry-link" aria-label="post link to Prisioneiras - Drauzio Varella" href="http://localhost:1313/diarioDeLeitura/posts/prisioneiras-drauzio-varella/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Sobrevivendo No Inferno - Racionais Mcs
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Sobrevivendo No Inferno - Racionais Mc’s Autor: Racionais MC’s
+Número de páginas: 160
+Início da leitura: 28/01/2024
+Término da leitura: 28/01/2024
+E eu li o livro inteiro do “Sobrevivendo no inferno” em pouco mais de 45 minutos. E infelizmente, apesar do conteúdo ser ótimo, a maneira como foi feita é um desperdício de potencial. Uma introdução excelente mas curta, que dá o contexto do livro e as músicas transcritas, além de umas fotos. Vale a pena ler a introdução e depois ouvir as músicas.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-01-28 20:46:45 -0300 -03'>January 28, 2024</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to Sobrevivendo No Inferno - Racionais Mcs" href="http://localhost:1313/diarioDeLeitura/posts/sobrevivendo-no-inferno-racionais-mcs/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Tokyo Vice
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Tokyo Vice: An American Reporter on the Police Beat in Japan (Tóquio proibida: Uma viagem perigosa pelo submundo japonês) Autor: Drauzio Varella
+Número de páginas: 296
+Início da leitura: 24/01/2024
+Término da leitura: 28/01/2024 Nota: 5 de 5 cinco maços de malboro
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-01-28 12:29:42 -0300 -03'>January 28, 2024</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to Tokyo Vice" href="http://localhost:1313/diarioDeLeitura/posts/tokyo-vice/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Dexter 5 - Dexter é delicioso - Jeff Lindsay
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Dexter 5 - Dexter é delicioso - Jeff Lindsay Autor: Jeff Lindsay
+Número de páginas: 352
+Início da leitura: 03/01/2024
+Término da leitura: 24/01/2024
+A segunda leitura do ano foi mais um livro da série de livros do Dexter! Se você quiser um breve resumo dos 3 primeiros livros e a resenha do quarto, tudo começou aqui: Resumo dos livros 1,2 e 3 &#43; resenha do quatro!
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-01-26 22:00:25 -0300 -03'>January 26, 2024</span>&nbsp;·&nbsp;<span>5 min</span></footer>
+  <a class="entry-link" aria-label="post link to Dexter 5 - Dexter é delicioso - Jeff Lindsay" href="http://localhost:1313/diarioDeLeitura/posts/dexter-5-dexter-e-delicioso/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Dexter 4 - Dexter Design De Um Assassino Jeff Lindsay
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Dexter 4 - Dexter Design De Um Assassino - Jeff Lindsay Autor: Jeff Lindsay
 Número de páginas: 272
 Início da leitura: 31/12/2023
 Término da leitura: 03/01/2024
 E vamos lá com a primeira resenha do ano (e do blog), mas antes, vamos dar aquela revisadinha nas minhas impressões dos 3 primeiros livros da série (Sem spoilers):
-Livro 1 (Dexter a mão esquerda de Deus) - Li faz muito tempo, talvez em 2017 ou 2018.
-    </div>
-    <a href="/diarioDeLeitura/posts/dexter-4-dexter-design-de-um-assassino/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+Livro 1 (Dexter a mão esquerda de Deus) - Li faz muito tempo, talvez em 2017 ou 2018. Amo o sarcasmo do Dexter e saber os pensamentos dele através da narração do livro é muito legal. Peca pelo final mirabolante ao mesmo tempo que isso dá o charme ao livro. Livro 2 (Querido e devotado Dexter) - Eletrizante, as situações malucas que o Dexter se mete por acaso, os antagonistas fodões e um vilão SINISTRO fazem desse o meu livro preferido da série até agora. Destaque para a festa de despedida de solteiro do Dexter e para o final eletrizante e não muito feliz. Livro 3 (Dexter no escuro) - O livro parte para uma pegada mais mística em torno da psicopatia do protagonista e dá bastante destaque aos seus enteados. E cara, como foi complicado passar por esse livro. Embora o nível de sarcasmo do Dexter continue excelente, todo o papinho de uma entidade maligna ancestral e suas crias, somado ao culto doido que tem nessa história, o jovem-misticismo presente, raso pra cacete e sinceramente ruim fez como que esse livro fosse arrastado apesar da pequena contagem de páginas (tem menos de 300.) Foi o último livro que li em 2023. O livro começa mostrando a lua de mel do Dexter em Paris, e sinceramente com algumas das passagens mais engraçadas da série até agora, principalmente quando fala sobre a empolgação da Rita durante a viagem. Esse volume da série é bem mais parecido com a segunda aventura do monstro de Miami, abandonando o jovem-misticismo e indo direto para as loucuras típicas da vida do Dexter. Destaque para o aprofundamento da relação entre o Dexter e seu pai adotivo, e a agora complicada relação entre o protagonista e a suar irmã Deb. As crianças ainda continuam muito forçadas nesse livro, ao ponto de ser irritante. Em matéria de vilão esse livro é um pouco mais fraco que o segundo (o Doutor é muito fod@!) mas só do vilão realmente conseguir foder o Dexter pelo intelecto e explorar os vacilos dele já é algo muito maneiro.
+...</p>
   </div>
-</div>
+  <footer class="entry-footer"><span title='2024-01-03 21:48:25 -0300 -03'>January 3, 2024</span>&nbsp;·&nbsp;<span>4 min</span></footer>
+  <a class="entry-link" aria-label="post link to Dexter 4 - Dexter Design De Um Assassino Jeff Lindsay" href="http://localhost:1313/diarioDeLeitura/posts/dexter-4-dexter-design-de-um-assassino/"></a>
+</article>
 
-        </div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white">
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Posts</span>
-    <h1 class="f3 near-black">
-      <a href="/diarioDeLeitura/posts/meu-diario-de-leitura/" class="link black dim">
-        Esse é o meu diário de leitura
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Esse é o meu diário de leitura Bem, basicamente eu leio pra caralho. Não é figura de linguagem, eu realmente me esforço pra ler bastante e eu gostaria de ter um lugar para extravasar as impressões após eu ler os livros pra que meu cérebro de peixe consiga lembrar do que eu li durante o ano.
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Esse é o meu diário de leitura
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Esse é o meu diário de leitura Bem, basicamente eu leio pra caralho. Não é figura de linguagem, eu realmente me esforço pra ler bastante e eu gostaria de ter um lugar para extravasar as impressões após eu ler os livros pra que meu cérebro de peixe consiga lembrar do que eu li durante o ano.
 Para vocês terem uma idéia, o número de livros que eu li (segundo o skoob) e um breve resumo de como foi meu ano desde 2018:
-    </div>
-    <a href="/diarioDeLeitura/posts/meu-diario-de-leitura/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+...</p>
   </div>
-</div>
-
-        </div>
-      
-    </section></article>
-
+  <footer class="entry-footer"><span title='2024-01-02 09:22:53 +0000 +0000'>January 2, 2024</span>&nbsp;·&nbsp;<span>3 min</span></footer>
+  <a class="entry-link" aria-label="post link to Esse é o meu diário de leitura" href="http://localhost:1313/diarioDeLeitura/posts/meu-diario-de-leitura/"></a>
+</article>
     </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://123duran.github.io/diarioDeLeitura/" >
-    &copy;  Meu diário de leitura 2024 
-  </a>
-    <div>
-<div class="ananke-socials">
-  
-</div>
-</div>
-  </div>
-</footer>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/diarioDeLeitura/">Meu diário de leitura</a></span> · 
 
-  </body>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
 </html>

@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "D:/Repo/blog/diarioDeLeitura",
+	"sourceRoot": "D:/repo/diarioDeLeitura",
 	"sources": [
 		"ananke/css/main.css"
 	],

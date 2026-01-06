@@ -1,4 +1,17 @@
 baseURL = 'https://123duran.github.io/diarioDeLeitura/'
 languageCode = 'pt-BR'
 title = 'Meu diário de leitura'
-theme = 'ananke'
+theme = "PaperMod"
+
+[params]
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Resenhas"
+    url = "/posts/"
+    weight = 1

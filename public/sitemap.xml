@@ -2,20 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://123duran.github.io/diarioDeLeitura/posts/dexter-4-dexter-design-de-um-assassino/</loc>
+    <loc>http://localhost:1313/diarioDeLeitura/posts/diario-de-um-banana-jeff-kinney/</loc>
+    <lastmod>2025-01-02T15:10:05-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/diarioDeLeitura/</loc>
+    <lastmod>2025-01-02T15:10:05-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/diarioDeLeitura/posts/</loc>
+    <lastmod>2025-01-02T15:10:05-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/diarioDeLeitura/posts/meu-amigo-dahmer/</loc>
+    <lastmod>2024-11-17T15:49:55-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/diarioDeLeitura/posts/prisioneiras-drauzio-varella/</loc>
+    <lastmod>2024-02-13T12:29:42-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/diarioDeLeitura/posts/sobrevivendo-no-inferno-racionais-mcs/</loc>
+    <lastmod>2024-01-28T20:46:45-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/diarioDeLeitura/posts/tokyo-vice/</loc>
+    <lastmod>2024-01-28T12:29:42-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/diarioDeLeitura/posts/dexter-5-dexter-e-delicioso/</loc>
+    <lastmod>2024-01-26T22:00:25-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/diarioDeLeitura/posts/dexter-4-dexter-design-de-um-assassino/</loc>
     <lastmod>2024-01-03T21:48:25-03:00</lastmod>
   </url><url>
-    <loc>https://123duran.github.io/diarioDeLeitura/</loc>
-    <lastmod>2024-01-03T21:48:25-03:00</lastmod>
-  </url><url>
-    <loc>https://123duran.github.io/diarioDeLeitura/posts/</loc>
-    <lastmod>2024-01-03T21:48:25-03:00</lastmod>
-  </url><url>
-    <loc>https://123duran.github.io/diarioDeLeitura/posts/meu-diario-de-leitura/</loc>
+    <loc>http://localhost:1313/diarioDeLeitura/posts/meu-diario-de-leitura/</loc>
     <lastmod>2024-01-02T09:22:53+00:00</lastmod>
   </url><url>
-    <loc>https://123duran.github.io/diarioDeLeitura/categories/</loc>
+    <loc>http://localhost:1313/diarioDeLeitura/categories/</loc>
   </url><url>
-    <loc>https://123duran.github.io/diarioDeLeitura/tags/</loc>
+    <loc>http://localhost:1313/diarioDeLeitura/tags/</loc>
   </url>
 </urlset>

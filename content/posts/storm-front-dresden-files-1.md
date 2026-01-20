@@ -7,7 +7,7 @@ draft = false
 
 # Storm Front -  Dresden Files #1 - Jim Butcher
 
-![Capa do livro - Storm Front Dresden Files #1](https://prodimage.images-bn.com/pimages/9780451461971_p0_v3_s600x595.jpg)
+![Capa do livro - Storm Front Dresden Files #1](/diarioDeLeitura/images/Storm-Front-Dresden-Files-1-capa.jpg)
 
 **Autor**: Jim Butcher
 

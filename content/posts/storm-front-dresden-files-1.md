@@ -43,7 +43,7 @@ Uma outra coisa que gostei muito, é que diferentemente de livros como Harry Pot
 
 Mais de uma vez durante o livro o Dresden toma a atitude mais humana possível, seja sair no soco, seja fugir. Não é porque ele é praticante de magia que ele é BURRO! Sabe aquelas situações em Harry Potter que tudo se resolveria com um socão, mas o protagonista fica panguando igual um otário? Isso não rola por aqui.
 
-Eu gostei de como as pontas se amarram e como fica muita merda pro Harry (Dresden, não Potter!) ter que limpar depois, não é um serviço sujo. AH, e dizer isso não é spoiler, tem mais quinze livros, ele não morre no primeiro né gente rsrs
+Eu gostei de como as pontas se amarram e como fica muita merda pro Harry (Dresden, não Potter!) ter que limpar depois, não é um serviço limpo. AH, e dizer isso não é spoiler, tem mais quinze livros, ele não morre no primeiro né gente rsrs
 Destaque pro podersoso último parágrafo do livro, Jim Butcher sabe como fazer um personagem badass, Harry Blackstone Copperfield Dresden é um filho da mãe durão de verdade.
 Em suma, eu gostei bastante do livro, o desenrolar da trama é bem feitinho e é uma leitura leve e legal, cheia de humor e ação
 

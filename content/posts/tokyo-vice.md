@@ -12,6 +12,7 @@ draft = false
 **Autor:** Jake Adelstein
 
 **Número de páginas:** 352
+
 **Idioma que eu li:** Inglês
 
 **Início da leitura:** Dezembro de 2025 (não anotei exatamente, shame on me)

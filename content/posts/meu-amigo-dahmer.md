@@ -6,7 +6,8 @@ draft = false
 
 # Meu Amigo Dahmer - Derf Backderf
 
-![Capa do livro - Meu Amigo Dahmer de Derf Backderf](https://img.skoob.com.br/jVkAt35wrzAdu5caOl3kfl0v9HU=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/680740/MEU_AMIGO_DAHMER_1495577994680740SK1495577995B.jpg)
+![Capa do livro - Meu Amigo Dahmer de Derf Backderf](/diarioDeLeitura/images/meu-amigo-dahmer-capa.jpg)
+
 
 **Autor**: Derf Backderf
 
